@@ -1,2 +1,2 @@
 # fintech545
-for quantitative risk management
+this is the repository just for quantitative risk management course (fintech545)
