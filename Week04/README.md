@@ -1,1 +1,13 @@
+the code is generally divided by the three problems
+part 1 is for problem 1
+part 2 is for problem 2
+part 3 is for problem 3
 
+in the beginning of the code, I load all the packages needed for this problem set.
+
+***** important
+Then, I change the working directory to the location of this folder in my laptop.
+If you want to run the code, you should change the working directory to the folder's location in your computer.
+
+then is the code for 3 problems. you can run the code for each problem one at a time.
+the code has been tested and it ran smoothly. If you cannot run the code, please email me! Thank you!
