@@ -40,7 +40,7 @@ def cal_VaR_ES_norm(returns, n=10000, alpha=0.05):
 def cal_VaR_ES_ew_norm(returns, lambda_=0.94, n=10000, alpha=0.05):
     mu = returns.mean()
     sigma = np.sqrt(exp_weighted_cov(returns, lambda_=lambda_))
-    simu_returns = np.random.normal(mu, sigma, n)
+    simu_returns = np.random.normal(mu, sigma[0][0], n)
     simu_returns.sort()
     n = alpha * simu_returns.size
     iup = int(np.ceil(n))
