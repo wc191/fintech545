@@ -102,6 +102,7 @@ def cal_VaR_ES_AR1(returns, n=10000, alpha=0.05):
 
 # Using a Historic Simulation.
 def cal_VaR_ES_hist(returns, alpha=0.05):
+    returns = sorted(returns)
     n = alpha * returns.size
     iup = int(np.ceil(n))
     idn = int(np.floor(n))
